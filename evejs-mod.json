@@ -1,0 +1,45 @@
+{
+  "id": "mod-mui1brca",
+  "displayName": "禁用未激活星系-优化",
+  "version": "1.0.0",
+  "author": {
+    "id": "au-mui0dora0n4x",
+    "name": "igottgo",
+    "keyId": "5793e02c771f"
+  },
+  "description": "优化服务器资源",
+  "category": "工具",
+  "tags": [
+    "优化"
+  ],
+  "readme": [
+    "优化服务器资源",
+    "更新兼容性当前适用于0.12.9 2026/9/26/14:40",
+    "详细介绍\n大幅减少内存和CPU占用。适合0.12.8。 加快服务器响应，懒加载模式，没用进入过的星系是离线状态 你进入离线星系，该星系会变成运行状态。 Significantly reduces memory and CPU usage. Suitable for version 0.12.8.\nSpeeds up server response, it only disables the galaxy, it does not delete the galaxy.\nIf you enter a disabled galaxy, the galaxy will become operational."
+  ],
+  "highlights": [
+    "玩家上线后在其本地聊天频道发送欢迎消息",
+    "只改运行内存，不修改 server/ 下任何文件",
+    "骨架已内置进程身份校验与 require.cache 等待，不会提前拉起大依赖"
+  ],
+  "conflicts": [],
+  "requiresRestart": true,
+  "evejsVersions": [
+    "0.12.9"
+  ],
+  "sizeBytes": 2374,
+  "sha256": "1f52d4005bec35432dcef90c7a9dac6a162d08a8e40d5408f47e622a7d49a020",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "url": "https://github.com/igottgo/evejs-mod-mod-mui1brca/releases/download/v1.0.0/mod-mui1brca-1.0.0.zip",
+      "priority": 1
+    }
+  ],
+  "changelog": "更新兼容性当前适用于0.12.9 2026/9/26/14:40",
+  "history": [],
+  "repo": "https://github.com/igottgo/evejs-mod-mod-mui1brca",
+  "featured": false,
+  "delisted": false,
+  "publishedAt": "2026-09-26"
+}
